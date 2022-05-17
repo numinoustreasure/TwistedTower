@@ -37,7 +37,7 @@ public class RewardPopup {
 		VBox layout = new VBox(10);
 		layout.getChildren().addAll(label, btnlayout);
 		layout.setAlignment(Pos.CENTER);
-		Scene scene = new Scene(layout, 550, 200);
+		Scene scene = new Scene(layout, 580, 200);
 		window.setScene(scene);
 		window.showAndWait();
 	}

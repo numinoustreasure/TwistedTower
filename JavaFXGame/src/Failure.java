@@ -49,7 +49,7 @@ public class Failure {
 		layout = new VBox(10, label, outcomeText, btnbox);
 		layout.setAlignment(Pos.CENTER);
 
-		Outcome = new Scene(layout, 500, 130);
+		Outcome = new Scene(layout, 520, 130);
 	}
 	public Scene getScene(){return Outcome;}
 
